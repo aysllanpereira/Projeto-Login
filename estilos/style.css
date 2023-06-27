@@ -81,10 +81,6 @@ form > div.campo {
     margin: 5px 0px;
 }
 
-div.campo > label {
-    display: none;
-}
-
 div.campo > span {
     color: white;
     font-size: 2em;
@@ -108,6 +104,12 @@ div.campo > input:focus-within {
     background-color: white;
     border: none;
 }
+
+
+div.campo > label {
+    display: none;
+}
+
 
 form > input[type=submit] {
     display: block;
